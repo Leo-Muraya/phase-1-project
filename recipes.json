@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Jollof Rice",
+        "origin": "West Africa",
+        "ingredients": ["rice", "tomatoes", "onions", "pepper", "vegetable oil", "spices"],
+        "description": "A one-pot dish with rice, tomatoes, and spices, often served at parties.",
+        "prepTime": "30 minutes",
+        "nutrition": {
+            "calories": 300,
+            "protein": "8g",
+            "carbs": "60g",
+            "fat": "5g"
+        },
+        "instructions": "1. Rinse the rice. 2. Sauté onions and peppers. 3. Add tomatoes and spices, then the rice. 4. Cook until rice is tender."
+    },
+    {
+        "id": 2,
+        "name": "Bunny Chow",
+        "origin": "South Africa",
+        "ingredients": ["hollowed bread", "curry", "vegetables", "meat"],
+        "description": "A South African street food consisting of a hollowed-out loaf of bread filled with curry.",
+        "prepTime": "45 minutes",
+        "nutrition": {
+            "calories": 400,
+            "protein": "15g",
+            "carbs": "70g",
+            "fat": "10g"
+        },
+        "instructions": "1. Prepare curry. 2. Hollow out bread. 3. Fill with curry. 4. Serve hot."
+    },
+    {
+        "id": 3,
+        "name": "Injera",
+        "origin": "Ethiopia",
+        "ingredients": ["teff flour", "water", "yeast"],
+        "description": "A sourdough flatbread used as a base for various dishes, often served with stews.",
+        "prepTime": "2 hours",
+        "nutrition": {
+            "calories": 150,
+            "protein": "5g",
+            "carbs": "30g",
+            "fat": "1g"
+        },
+        "instructions": "1. Mix teff flour with water and yeast. 2. Let batter ferment. 3. Cook on a hot pan until bubbles form."
+    },
+    {
+        "id": 4,
+        "name": "Tagine",
+        "origin": "Morocco",
+        "ingredients": ["meat", "vegetables", "spices", "olives", "prunes"],
+        "description": "A slow-cooked stew made in a special earthenware pot, often flavored with spices.",
+        "prepTime": "1 hour",
+        "nutrition": {
+            "calories": 500,
+            "protein": "30g",
+            "carbs": "40g",
+            "fat": "25g"
+        },
+        "instructions": "1. Brown meat. 2. Add vegetables and spices. 3. Simmer in tagine pot until tender."
+    },
+    {
+        "id": 5,
+        "name": "Fufu",
+        "origin": "West Africa",
+        "ingredients": ["cassava", "plantains", "water"],
+        "description": "A starchy side dish made by boiling and pounding root vegetables.",
+        "prepTime": "1 hour",
+        "nutrition": {
+            "calories": 200,
+            "protein": "2g",
+            "carbs": "50g",
+            "fat": "0g"
+        },
+        "instructions": "1. Boil cassava and plantains. 2. Mash until smooth. 3. Serve with soup or stew."
+    }
+]

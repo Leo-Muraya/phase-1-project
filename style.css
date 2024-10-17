@@ -1,0 +1,81 @@
+body {
+    background-color: #FDE5CF;
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+    font-size: xxx-large;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/biryani.jpg");
+    background-size: cover;
+    align-items: end;
+}
+
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+#title {
+    color: #DE7E24;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#recipeDetails {
+    display: block;
+}
+
+#recipe {
+    color: #DE7E24;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    border-radius: 40px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    background-color: black;
+    font-size: 50%;
+    background-image: url('resources/pixelpizza.jpeg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 60px; 
+    height: 60px; 
+    border: none; 
+    cursor: pointer;     
+}
+
+#searchBar {
+    border-radius: 100px;   
+    border-color: black;
+    background-color: #FBCB9E;    
+    height: 100px;
+    width: 1000px;    
+    text-align: center;
+    font-size: 80%;
+    color: beige;
+    
+}
+
+#searchBar::placeholder {
+    color: #DE7E24; 
+    opacity: 1; 
+    color: beige;    
+}
+form {
+    align-self: baseline;
+}
+
+#details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    color: #DE7E24;
+}
+
+#recipeContent {
+    color: black;
+    text-decoration: #FBCB9E;
+    background-color: #FBCB9E;
+    border-radius: 40px;
+}
