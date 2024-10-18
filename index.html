@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipe">Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1 id="title">The Recipe Book</h1>
     <section>
         <form id="searchForm">
             <label for="searchByID"></label>
             <input type="text" id="searchBar" placeholder="Enter Recipe Here">
+            <!-- <input type="text" id= "dropBar">
+                <h1>Select a food item</h1>
+                <label for="food">Choose a food:</label>
+                <select id="foods" name="foods">
+                    <option value="ugali">ugali</option>
+                </select>
+            </input> -->
             <input id="submit" type="submit" value=".">
             <div id="results"></div>
             <div id="details" class="details"></div>

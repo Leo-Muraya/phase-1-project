@@ -1,7 +1,7 @@
 body {
     background-color: #FDE5CF;
     text-align: center;
-    margin: 100px;
+    margin: 10px;
     padding: 100px;
     font-size: xxx-large;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/biryani.jpg");
@@ -61,6 +61,7 @@ section {
     opacity: 1; 
     color: beige;    
 }
+
 form {
     align-self: baseline;
 }
@@ -78,4 +79,41 @@ form {
     text-decoration: #FBCB9E;
     background-color: #FBCB9E;
     border-radius: 40px;
+}
+
+#results{
+    color: #623205;
+    background-color: #FCD8B6;
+    border-radius: 40px;
+    border-color: black;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #BB7F47;
+    border-radius: 5px;
 }
