@@ -73,5 +73,35 @@
             "fat": "0g"
         },
         "instructions": "1. Boil cassava and plantains. 2. Mash until smooth. 3. Serve with soup or stew."
+    },
+    {
+        "id": 6,
+        "name": "Bobotie",
+        "origin": "South Africa",
+        "ingredients": ["ground beef", "onions", "bread", "milk", "egg", "spices"],
+        "description": "A spiced minced meat dish with a creamy topping, traditionally served with yellow rice.",
+        "prepTime": "1 hour",
+        "nutrition": {
+            "calories": 450,
+            "protein": "30g",
+            "carbs": "35g",
+            "fat": "25g"
+        },
+        "instructions": "1. Sauté onions and garlic. 2. Mix with ground beef, bread, and spices. 3. Transfer to a baking dish and top with a milk-egg mixture. 4. Bake until golden."
+    },
+    {
+        "id": 7,
+        "name": "Piri Piri Chicken",
+        "origin": "Mozambique",
+        "ingredients": ["chicken", "piri piri sauce (chili peppers, garlic, lemon, herbs)"],
+        "description": "Spicy grilled chicken marinated in a flavorful piri piri sauce.",
+        "prepTime": "1 hour (plus marination)",
+        "nutrition": {
+            "calories": 350,
+            "protein": "25g",
+            "carbs": "10g",
+            "fat": "20g"
+        },
+        "instructions": "1. Marinate chicken in piri piri sauce for at least 30 minutes. 2. Grill chicken until cooked through. 3. Serve hot with sides."
     }
 ]
